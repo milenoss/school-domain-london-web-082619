@@ -1,4 +1,19 @@
-<<<<<<< HEAD
+class School 
+  Roster [] 
+  def initialize
+end
+
+
+
+
+
+
+
+
+
+
+
+
 
 # # # code here!# code here!
 # require 'pry'
