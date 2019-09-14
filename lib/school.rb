@@ -79,7 +79,6 @@ def initialize(name)
 # require 'pry'
 
 class School
-<<<<<<< HEAD
 def initialize(school_name)
   @school_name = school_name
   @roster = {}
