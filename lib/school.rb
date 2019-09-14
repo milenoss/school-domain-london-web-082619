@@ -6,7 +6,11 @@ def initialize(name)
     end
     
     def roster 
-      @roster 
+      @roster["grade"] = []
+    end
+    
+    def add_student 
+      
     end
 end
 
