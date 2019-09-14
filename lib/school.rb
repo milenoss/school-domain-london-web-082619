@@ -6,7 +6,7 @@ def initialize(name)
     end
     
     def roster 
-      @roster["grade"] = []
+      @roster
     end
     
   # describe "#add_student" do
@@ -16,9 +16,11 @@ def initialize(name)
   #   end
     
     def add_student(student, grade)
-      
-      @roster = {:grade => 'student'}
-      
+     if roster[grade] != nil 
+       roster[grade] << student
+     else 
+       roster[grade] == student
+      end
     end
 end
 
