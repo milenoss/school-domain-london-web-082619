@@ -17,7 +17,6 @@ def initialize(name)
   #   end
     
     def add_student(student, grade)
-        roster[grade] = []
      if roster[grade] != nil 
        roster[grade] << student
      else 
