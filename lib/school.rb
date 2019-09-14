@@ -1,5 +1,5 @@
 class School 
-  Roster [] 
+  hash = {}
   def initialize
 end
 
