@@ -21,7 +21,6 @@ def initialize(name)
        roster[grade] << student
      else 
        roster[grade] == student
-       binding.pry
       end
     end
 end
