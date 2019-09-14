@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # # code here!# code here!
  require 'pry'
@@ -33,10 +34,13 @@
  
 end
 =======
+=======
+>>>>>>> b8732ebe40ef00358bee11490ddd744787d70c77
 # code here!
 require 'pry'
 
 class School
+<<<<<<< HEAD
  def initialize(school_name)
    @school_name = school_name
    @roster = {}
@@ -69,3 +73,17 @@ end
 end
   
 
+=======
+  
+  attr_accessor :name, :roster
+
+  def initialize(name)
+    @name = name
+    @roster = {}
+  end
+  
+  
+
+
+end
+>>>>>>> b8732ebe40ef00358bee11490ddd744787d70c77
