@@ -1,3 +1,4 @@
+require 'pry'
 class School 
 attr_reader :name
 def initialize(name)
@@ -20,6 +21,7 @@ def initialize(name)
        roster[grade] << student
      else 
        roster[grade] == student
+       binding.pry
       end
     end
 end
