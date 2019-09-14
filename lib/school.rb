@@ -1,6 +1,6 @@
 class School 
-  def initialize
-      roster = []
+  def initialize(school)
+      @school = []
 
   end
 end
