@@ -24,7 +24,8 @@ def initialize(name)
        roster[grade] == student
       end
     end
-end
+    
+
 
 
 
